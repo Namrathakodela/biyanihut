@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biryani Hut</title>
+    <!-- Bootstrap 4 CDN for styling and responsiveness -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+
+    <!-- Header Section with Dark Theme -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="loog.png" alt="Biryani Hut Logo" style="width: 120px;">
+            </a>
+            
+            <!-- Navbar Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <!-- Call to Action Button -->
+                    <li class="nav-item">
+                        <a class="btn btn-primary order-btn" href="#">Order Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+     <!-- Hero Section -->
+     <section class="hero-section">
+        <div class="hero-overlay">
+            <div class="container text-center text-white">
+                <h1 class="hero-heading">Welcome to Biryani Hut</h1>
+                <p class="hero-subheading">Experience the finest Biryani, made with authentic spices and the finest ingredients.</p>
+                <a href="#menu" class="btn btn-primary btn-lg hero-btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="about dark-theme">
+        <div class="about-content">
+          <h2>About Biryani Hut</h2>
+          <p>Experience the finest gourmet biryanis in a cozy and rustic atmosphere. At Biryani Hut, we are dedicated to delivering exceptional flavors that will tantalize your taste buds.</p>
+          <p>Our chefs meticulously craft each biryani using locally sourced ingredients and unique flavor combinations. From juicy beef patties to mouthwatering vegetarian options, there's something for everyone.</p>
+          <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+        <div class="about-image">
+          <img src="all types of biryanis.jpg" alt="About Image">
+        </div>
+      </section>
+      
+      
+      <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="chicken biryani.jpg" alt="Burger 1">
+            <h3>chicken biryani</h3>
+            <p>A juicy patty topped with melted cheese, fresh lettuce, tomato, and our special sauce. Served with a side of crispy fries.</p>
+          </div>
+          <div class="menu-item">
+            <img src="mutton biryani.jpg" alt="Burger 2">
+            <h3>mutton biryani</h3>
+            <p>A delicious mutton patty made from a blend of fresh vegetables and spices. Topped with avocado, sprouts, and tangy mayo. Served with a side of sweet potato fries.</p>
+          </div>
+          <div class="menu-item">
+            <img src="colour biryani.jpg" alt="Burger 3">
+            <h3>panner Biryani</h3>
+            <p>A fiery panner packed with flavor!  smothered in spicy BBQ sauce, topped with jalapenos, crispy onion rings, and chipotle mayo. Served with a side of coleslaw.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="reservations">
+        <div class="reservation-form">
+          <h2>Make a Reservation</h2>
+          <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      
+      
+      <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+          <img src="restarunt image.jpg" alt="Customer 1">
+          <p>"The burgers at Berger Hut are simply amazing! The flavors are rich, and the ingredients are always fresh. It's my go-to place whenever I'm craving a delicious meal."</p>
+          <h4>John Doe</h4>
+        </div>
+        <div class="testimonial">
+          <img src="all types of biryanis.jpg" alt="Customer 2">
+          <p>"Berger Hut never disappoints! The quality of their burgers and the friendly service make it a top-notch dining experience. I highly recommend it to all burger lovers!"</p>
+          <h4>Jane Smith</h4>
+        </div>
+      </section>
+      
+      
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="biryani .jpg" alt="Image 1">
+          </div>
+          <div class="image-item">
+            <img src="mutton biryani.jpg" alt="Image 2">
+          </div>
+          <div class="image-item">
+            <img src="chicken biryani.jpg" alt="Image 3">
+          </div>
+          <div class="image-item">
+            <img src="colour biryani.jpg" alt="Image 4">
+          </div>
+        </div>
+      </section>
+      
+      <section class="contact">
+        <div class="contact-container">
+          <h2>Contact Us</h2>
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>123 Main Street, City, Country</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <p>+1 234 567 890</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>info@bergerhut.com</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      
+      
+      
+      
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="loog.png" alt="Logo">
+          </div>
+          <nav class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Reservations</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <p class="footer-text">&copy; 2023 Berger Hut. All rights reserved.</p>
+      </footer>
+      
+      
+
+    <!-- Optional Bootstrap JS and dependencies for mobile navigation -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

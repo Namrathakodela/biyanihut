@@ -1,0 +1,131 @@
+/* Custom Styling for Dark Header Theme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40; /* Dark background for navbar */
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* White text color */
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0a500 !important; /* Hover color on links */
+}
+
+.navbar-nav .order-btn {
+    background-color: #f0a500; /* Biryani Hut brand color */
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .order-btn:hover {
+    background-color: #e89c00; /* Slightly darker shade for hover */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White toggle button for mobile */
+}
+
+/* For mobile view */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Hero Section Styling */
+.hero-section {
+    background-image: url('biryani\ .jpg'); /* Replace with your own background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+}
+
+/* Dark Overlay on the Background */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Text Styling */
+.hero-heading {
+    font-size: 4rem; /* Large heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+/* Hero Button Styling */
+.hero-btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #f0a500; /* Yellow-orange color for button */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.hero-btn:hover {
+    background-color: #e89c00; /* Darker shade of yellow for hover */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2.5rem; /* Smaller heading on mobile */
+    }
+
+    .hero-subheading {
+        font-size: 1.2rem; /* Smaller subheading on mobile */
+    }
+
+    .hero-btn {
+        font-size: 1rem; /* Smaller button text */
+    }
+}
